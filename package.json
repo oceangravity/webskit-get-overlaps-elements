@@ -1,6 +1,6 @@
 {
   "name": "webskit-get-overlaps-elements",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get all overlapping elements for another element",
   "main": "dist/index.js",
   "scripts": {
@@ -20,7 +20,9 @@
     "eslint-plugin-vue": "^5.1.0",
     "mocha": "^7.1.0",
     "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "minimist": ">=1.2.2",
+    "acorn": ">=6.4.1"
   },
   "repository": {
     "type": "git",
